@@ -1,0 +1,115 @@
+:root{
+    --bleu-primaire: #32438A;
+    --vert-primaire: #448AB3;
+    --marron-primaire: #CBB956;
+    --Bg-navbar: #222222;
+    --panier: #28A745;
+    --footer: #F5F8FA;
+    --podcast: #EB2500;
+    --blanc:#FFFFFF;
+    --border:#e6e5e5;
+    --borderancre:#ccc;
+    --backfooter:#f5f5f5;
+    --icon:#2B3A77;
+    --heardercolor:#D9EDF7;
+    --headertext:#3184BB;
+    --body:#F9F9F9;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy,system-ui,-apple-system,BlinkMacSystemFont,".SFNSText-Regular","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+    text-decoration: none;
+}
+
+body{
+    /* background-color: var(--body); */
+    text-decoration: none;
+    background-color: var(--body);
+    box-shadow: 5px 5px 5px rgb(60, 58, 58);
+    padding-bottom: 90px;
+}
+
+.container{
+    margin-top: 200px;
+   
+}
+.column1{
+    margin-right: 30px;
+  
+}
+.column2{
+    margin-left: 30px;
+}
+
+.flexible{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+h5{
+  color: var(--headertext);  
+    
+}
+
+
+
+.php,.fa-tags,.title{
+    color: var(--icon);
+    text-decoration: none;
+}
+.title:hover{
+    text-decoration: underline;
+    
+}
+.php:hover{
+    text-decoration: underline;
+
+}
+.card-body{
+    height: 250px;
+}
+
+
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: var(--backfooter);
+    border-top: 1px solid var(--border);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-footer:hover{
+    background-color: unset;
+}
+
+
+.panel-footer a{
+    width: 370px;
+    height: 50px;
+    background-color: var(--blanc);
+    border: 1px solid  var(--borderancre);
+    cursor: pointer;  
+}
+.panel-footer a:hover{
+    background-color: var(--backfooter);
+
+}
+
+
+.fa-play-circle{
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 600) {
+    .flexible{
+        display: grid;
+        grid-template-rows: repeat(5,1fr);
+    }
+  }
