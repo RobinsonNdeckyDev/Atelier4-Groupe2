@@ -1,0 +1,31 @@
+*{
+    border: color solid red;
+}
+.talls{
+    width:280px;
+    height: 30px;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 630px;
+}
+.code{
+    color:#de3747;
+    font-size: 30px;
+    margin-left: 630px;
+}
+.email{
+    margin-left: 630px;
+    font-size: 20px;
+    /* line-height: 1px; */
+}
+.connecter{
+    color: #36858E;
+    margin-left: 720px;
+    font-size: 25px;
+}
+button{
+    background-color: #36858E;
+    margin-top: 20px;
+}
+ 
