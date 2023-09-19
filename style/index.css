@@ -37,7 +37,7 @@ header nav .container a:hover {
 header .section0 {
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url(../images/accueil/image.jpg);
+    background-image: url(../images/accueil/image_auto_x2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -47,7 +47,7 @@ header .containerSection0 {
 }
 
 header .containerSection0 button {
-    background-color: #32438a;
+    background-color: #32438a !important;
 }
 
 /* footer */

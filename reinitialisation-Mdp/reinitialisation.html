@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mot de passe .css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>mot de passe oublié</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../connexion/connexion.css">
+    <link rel="stylesheet" href="../style/index.css">
+    <title>Réinitialisation du mot de passe</title>
 </head>
+
 <body>
-    <form action="">
-    <div class="container">
-        <h4 class="code"><i class="fa-solid fa-code-branch" style="color: #de3747;"></i>&nbsp;Parlons Code</h4>
-        <p class="email">Entrez votre adresse Email et nous vous <br> &nbsp;enverrons les instructions de réinitialisation de <br>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mot de passe:</p> 
-       <div>
-        <div class="mb-6">
-            <label for="exampleInputPassword1" class="form-label"></label>
-            <input type="text" placeholder="Adresse électronique " class="talls" required>
-          </div> 
-          <div class="tall">
-            <button type="submit" class="btn btn-primary talls">Envoyez le lien par mail</button>
-        </div> 
-    </form> 
-        <div>
-           <p class="connecter">se connectez</p class="talls"> 
-        </div>
+    <!-- Main -->
+    <main class="container-md">
+        <form class="container-lg m-auto conditions row">
+            <div class="connect m-auto col-lg-4 col-lg-offset-2">
+                <h1 class="mb-3 text-center"><i class="fa-solid fa-code-branch" style="color: #de3747;"></i>Parlons code
+                </h1>
+                <br>
+                <p class="text-center">
+                    Entrez votre adresse email et nous vous <br> enverrons les instructions de réinitialisation de <br>
+                    mot de passe:
+                </p>
+                <div class="">
+                    <input type="email" name="Email" id="email" class="form-control p-2 mb-3" placeholder="Adresse électronique" required>
+                </div>
+                <div class="">
+                    <button 
+                        class="btn btnEnvoi w-100 text-center"><a href="../accueil/accueil.html"><i
+                        class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                            Envoyer le lien par mail</a>
+                    </button>
+                </div>
+                <br>
+                <p class="text-center Mdp-Ob"><a href="../connexion/connexion.html">Se connecter</a>
+                </p>
+            </div>
+        </form>
+    </main>
+
+    <!-- Script -->
+    <script src="../Fontawesome/FontAwesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
-</html> 
+
+</html>

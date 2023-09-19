@@ -1,5 +1,4 @@
 
-
 .nb{
     height: 280px;
 }
@@ -13,4 +12,8 @@ hr{
 }
 .imm{
     margin-top: -18px;
+}
+
+main{
+    padding-bottom: 3%;
 }

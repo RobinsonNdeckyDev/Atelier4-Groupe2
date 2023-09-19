@@ -1,4 +1,103 @@
-*{
+main{
+    padding-top: 5%;
+}
+main form{
+    margin-top: 3%;
+}
+main form .connect h1{
+    font-size: 36px;
+    color: #DE3747;
+}
+
+main form h3,p{
+    color: #28384d;
+}
+main form button{
+    background-color: var(--bleu-primaire) !important;
+}
+
+main form button a{
+    color: white;
+    text-decoration: none;
+}
+
+main form .Mdp-Ob a{
+    text-decoration: none;
+}
+
+main .btnEnvoi i{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    padding-left: 600px;
+    margin: 70px auto;
+    align-items: center;
+}
+.tall{
+    height: 50px;
+    color: blue;
+}
+.taille{
+    width:280px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+button{
+    background-color: #36858E;
+    margin-top: 12px;
+}
+.mf{
+    color: #36858E;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.ag{
+    color: #de3747;
+    font-size: 30px;
+    margin-top: -30px;
+    font-size: 20px;
+    height: 25px;
+}
+.jjjj{
+    margin-top: -12px;
+    font-size: 20px;
+    height: 25px;
+}
+.pppp{
+    margin-top: -2px;
+    font-size: 20px;
+}
+.container2{
+    align-items: center;
+    transform: translate(-50px);
+} */
+
+
+
+
+
+/* *{
     border: color solid red;
 }
 .talls{
@@ -17,7 +116,6 @@
 .email{
     margin-left: 630px;
     font-size: 20px;
-    /* line-height: 1px; */
 }
 .connecter{
     color: #36858E;
@@ -28,4 +126,4 @@ button{
     background-color: #36858E;
     margin-top: 20px;
 }
- 
+  */
