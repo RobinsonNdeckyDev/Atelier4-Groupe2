@@ -1,0 +1,9 @@
+@import url('../../style/index.css');
+
+body{
+    overflow: hidden;
+}
+
+.sidebar{
+    height: 92vh;
+}
