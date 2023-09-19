@@ -7,3 +7,84 @@
     --footer: #F5F8FA;
     --podcast: #EB2500;
 }
+
+/* Header */
+header nav {
+    background-color: #222222;
+}
+
+header nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .container i {
+    margin-right: 10px;
+}
+
+header nav .container a {
+    color: #5c5c5c;
+}
+
+header nav .container a:hover {
+    color: white;
+}
+
+header .section0 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../images/accueil/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header .containerSection0 {
+    color: white;
+}
+
+header .containerSection0 button {
+    background-color: #32438a;
+}
+
+/* footer */
+footer {
+    background-color: #f5f8fa;
+    border-top: 5px solid rgb(210, 210, 210);
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+footer .container .parlons-code span {
+    font-size: 30px;
+    color: #28384d;
+    font-weight: 600;
+}
+
+footer .sociaux i {
+    font-size: 40px;
+    margin-right: 25px;
+    color: #828282;
+}
+
+footer .newsletters .left button i {
+    margin-right: 10px;
+}
+
+footer .newsletters p i {
+    margin-right: 15px;
+}
+
+footer .newsletters .left button {
+    color: white;
+}
+
+footer .containerMenu ul a {
+    text-decoration: none;
+    color: #a5a7ae;
+    margin-bottom: 20px;
+}
+
+footer .copyR p {
+    text-align: center;
+    color: #a5a7ae;
+}
