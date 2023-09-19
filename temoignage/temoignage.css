@@ -1,0 +1,24 @@
+
+.temoignagesContainer{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.temoignagesContainer .col-lg-4{
+    padding: 2%;
+}
+.temoignagesContainer .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignagesContainer .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.temoignagesContainer h2{
+    margin: 15px;
+}
