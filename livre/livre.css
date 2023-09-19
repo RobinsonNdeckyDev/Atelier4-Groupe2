@@ -1,0 +1,74 @@
+.livreSection1 i{
+    margin-right: 20px;
+}
+
+.livreSection1 h1{
+    color: #28384d;
+}
+
+.livreSection1 p{
+    color: #777777;
+    font-size: 16px;
+}
+
+.livreSection2 h2{
+    color: #28384d;
+    font-weight: lighter;
+    margin-bottom: 1%;
+}
+
+.livreSection2 span{
+    font-weight: bold;
+}
+
+.livreSection2 img{
+    width: 100%;
+}
+
+.livreSection2 p{
+    color: #777777;
+}
+
+.livreSection2 ul li{
+    color: #777777;
+}
+
+.livreSection2 .bout1,.bout2{
+    background-color: #32438a !important;
+    color: white;
+    margin-top: 4%;
+}
+
+.livreSection2 button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.livreSection2 .bout1,.bout2:hover{
+    background-color: #32438a !important;
+    color: white;
+}
+
+.livreSection2 .bout1,.bout2 i{
+    margin-right: 10px;
+}
+
+.livreSection2 .badge{
+    background-color: #cbb956;
+}
+
+.livreSection2 .bout3 a{
+    color: white;
+}
+
+.livreSection2 .bout3 .Arrow{
+    margin-left: 10px;
+}
+
+.livreSection2 .bout3 .shop{
+    margin-right: 10px;
+}
+
+.livreSection2 .badge i{
+    margin-right: 10px;
+}
