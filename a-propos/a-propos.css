@@ -1,0 +1,34 @@
+.titre{
+    color: #28384D;
+    
+}
+
+.th{
+    color:#777777;
+    font-weight: bold;
+}
+
+
+.ttt{
+    width: 100%; 
+    margin: 0 auto; 
+    max-width: 1050px; 
+    border: 1px solid #3F55AF;
+    border-top: none;
+    color:#28384D;
+}
+.img-circle{
+    width: 100px;
+   border-radius: 50%;
+}
+.card-body{
+    font-size: 23px;
+}
+.card-header{
+    background-color: #3F55AF;
+}
+.s{
+    color:#f9f9f925;
+    width: 750px;
+    height: 1px;
+}
