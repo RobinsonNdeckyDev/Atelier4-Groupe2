@@ -1,0 +1,18 @@
+.conditions{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.conditions .sectionConditions h1{
+    text-align: center;
+    color: #28384d;
+}
+
+.conditions .sectionConditions p{
+    text-align: justify;
+    color: #28384d;
+}
+
+.conditions .sectionConditions i{
+    margin-right: 15px;
+}

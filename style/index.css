@@ -78,6 +78,11 @@ footer .newsletters .left button {
     color: white;
 }
 
+footer .newsletters .left button a{
+    text-decoration: none;
+    color: white;
+}
+
 footer .containerMenu ul a {
     text-decoration: none;
     color: #a5a7ae;

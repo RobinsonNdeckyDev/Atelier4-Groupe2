@@ -49,7 +49,11 @@
     color: white;
 }
 
-.livreSection2 .bout1,.bout2 i{
+.livreSection2 .bout1 i{
+    margin-right: 10px;
+}
+
+.livreSection2 .bout2 i{
     margin-right: 10px;
 }
 
