@@ -1,0 +1,23 @@
+@import url('../../style/index.css');
+
+body{
+  overflow: hidden;   
+}
+
+.sidebar{
+    height: 100vh;
+}
+
+.notToggle.accordion-button::after{
+    display: none;
+}
+
+.linkHover{
+    background-color: blueviolet;
+}
+
+.mainContent{
+    /* border: 6px solid black; */
+    height: 100vh;
+    overflow: scroll ;
+}
