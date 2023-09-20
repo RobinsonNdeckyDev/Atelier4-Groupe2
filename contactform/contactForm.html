@@ -12,36 +12,149 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-     <h1 class="text-center"><i class="fa fa-user-o"></i> Contact</h1>
-     <p class="text-center text-muted">Nous avons pour seul souci de résoudre vos soucis.</p><br>
-     <div class="row">
-      <form action="">
-        <div class="mb-3  ">
-          <input type="text" class="form-control  " id="input1" placeholder="nom complet" required minlength="2">
-        </div>
-      <div class="mb-3">
-          <input type="email" class="form-control" id="input2" placeholder="Address electronique" required>
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" id="textarea" rows="15" placeholder="Comment pouvons nous vous aidez?"></textarea>
-        </div>
-  </div>
-  <div class="g-recaptcha" data-sitekey="6Leq7TgoAAAAADsUGfuU02KLLusfaAmpnFnnZFBM"></div>
-    <div class="row">
-        <button type="submit" class="btn btn-lg  btn-block"><i class="fa fa-paper-plane"></i> Envoyer mon message</button>
 
-    </div>
-        
-      </form>
-        
+    <!-- Hearder -->
+    <header>
+      <!-- navigation -->
+      <nav class="navbar fixed navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+    
+          <!-- Logo à gauche -->
+          <a class="navbar-brand" href="../accueil/accueil.html"><i class="fa-solid fa-code-branch"
+              style="color: #5c5c5c;"></i>Parlons
+            code</a>
+    
+          <!-- Bouton de basculement pour les petits écrans -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Menu à droite -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#formation">Formations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../ateliers/atelier.html">Ateliers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../podcast/podcast.html">Podcasts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../livre/livre.html">Livres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../connexion/connexion.html">Se connecter</a>
+              </li>
+              <li class="nav-item d-none">
+                <a class="nav-link" href="../panier/panier.html"><i class="fa-solid fa-cart-shopping"
+                    style="color: #1cce31;"></i><span></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- main -->
+    <main class="pt-4 mb-5">
+      <div class="container pt-5">
+        <h1 class="text-center"><i class="fa fa-user-o"></i> Contact</h1>
+        <p class="text-center text-muted">Nous avons pour seul souci de résoudre vos soucis.</p><br>
+        <div class="row">
+          <form action="">
+            <div class="mb-3  ">
+              <input type="text" class="form-control  " id="input1" placeholder="nom complet" required minlength="2">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="input2" placeholder="Address electronique" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="textarea" rows="15"
+                placeholder="Comment pouvons nous vous aidez?"></textarea>
+            </div>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6Leq7TgoAAAAADsUGfuU02KLLusfaAmpnFnnZFBM"></div>
+        <div class="row">
+          <button type="submit" class="btn btn-lg  btn-block"><i class="fa fa-paper-plane"></i> Envoyer mon message</button>
+      
+        </div>
+      
+        </form>
+      
+      
+        <!-- *************reCAPCHAT************ -->
+      
+      
+        <p class="text-center">Ou envoyez-nous un mail à: <a href="mailto:hello@parlonscode.com">hello@parlonscode.com</a></p>
+      
+      </div>
+    </main>
 
-            <!-- *************reCAPCHAT************ -->
-    
-    
-    <p class="text-center">Ou envoyez-nous un mail à: <a href="mailto:hello@parlonscode.com">hello@parlonscode.com</a></p>
-    
-    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="parlons-code row">
+          <div class="col-md-6">
+            <span>Parlons code</span>
+            <p>
+              Apprenez à programmer par la pratique!
+            </p>
+            <div class="sociaux">
+              <i class="fa-brands fa-square-facebook icon"></i>
+              <i class="fa-brands fa-square-twitter icon"></i>
+              <i class="fa-brands fa-square-github icon"></i>
+            </div>
+          </div>
+          <div class="col-md-6 containerMenu">
+            <div class="row">
+              <div class="col-md-6">
+                <span class="title">Lien utiles</span>
+                <ul class="list-unstyled mt-2">
+                  <li class="mb-2"><a href="#">Formation</a></li>
+                  <li class="mb-2"><a href="../podcast/podcast.html">Podcasts</a></li>
+                  <li class="mb-2"><a href="../livre/livre.html">Livres & Ebooks</a></li>
+                  <li class="mb-2"><a href="../contactform/contactForm.html">Support technique</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <span class="title">Lien utiles</span>
+                <ul class="list-unstyled mt-2">
+                  <li class="mb-2"><a href="../a-propos/a-propos.html">A propos</a></li>
+                  <li class="mb-2"><a href="../contact-pop-up/contact.html">Contact</a></li>
+                  <li class="mb-2"><a href="../politiqueConfidentiel/politique.html">Politique de confidentialité</a></li>
+                  <li class="mb-2"><a href="../conditions-utilisation/condition.html">Conditions d'utilisation</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="newsletters">
+          <p><i class="fa-regular fa-bell"></i>Recevez toute l'actualité du site dans votre boîte mail!</p></label>
+          <div class="newsContainer row">
+            <div class="left col-md-6 p-3">
+              <form action="">
+                <input type="text" class="form-control" placeholder="Veiller entrer votre adresse email">
+              </form>
+            </div>
+            <div class="left col-md-6 p-3">
+              <button class="btn btn-info">
+                <a href="../accueil/accueil.html"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>S'abonner à la
+                  newsletter</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="copyR pt-4 pb-1">
+          <p>Conçu <span><i class="fa-solid fa-heart" style="color: #fd5dab;"></i></span>avec et beaucoup de <span><i
+                class="fa-solid fa-mug-saucer" style="color: #bababa;"></i></span> sur Jupiter · © Copyright 2017 ‐
+            2023. Tous Droits Réservés.</p>
+        </div>
+      </div>
+    </footer>
     
 </body>
 </html>
