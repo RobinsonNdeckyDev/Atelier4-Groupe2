@@ -9,6 +9,11 @@ main form .connect h1{
     color: #DE3747;
 }
 
+main form .connect h1 a{
+    color: #DE3747;
+    text-decoration: none;
+}
+
 main form h3,p{
     color: #28384d;
 }
