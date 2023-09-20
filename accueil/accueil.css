@@ -75,4 +75,21 @@ main .section2 button{
     font-size: 18px;
 }
 
+main .boutTem button a{
+    text-decoration: none;
+}
+
+main .row1 .card-title a{
+    text-decoration: none;
+    color: #2b3a77;
+    font-weight: 600;
+}
+
+main .row1 .card-title a:hover{
+    text-decoration: underline;
+}
+
+main .row1 .card-body span{
+    margin-right: 10px;
+}
 

@@ -1,4 +1,357 @@
 <!DOCTYPE html>
+<html lang="Fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../panier/panier.css">
+  <link rel="stylesheet" href="../style/index.css">
+  <title>Votre Panier</title>
+</head>
+<body>
+  <!-- Hearder -->
+  <header>
+    <!-- navigation -->
+    <nav class="navbar fixed navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+  
+        <!-- Logo à gauche -->
+        <a class="navbar-brand" href="../accueil/accueil.html"><i class="fa-solid fa-code-branch"
+            style="color: #5c5c5c;"></i>Parlons
+          code</a>
+  
+        <!-- Bouton de basculement pour les petits écrans -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Menu à droite -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#formation">Formations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../ateliers/atelier.html">Ateliers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../podcast/podcast.html">Podcasts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../livre/livre.html">Livres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../connexion/connexion.html">Se connecter</a>
+            </li>
+            <li class="nav-item d-none">
+              <a class="nav-link" href="../panier/panier.html"><i class="fa-solid fa-cart-shopping"
+                  style="color: #1cce31;"></i><span></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main>
+    <div class="container mt-5">
+      <div class="section1">
+        <h1 class="text-center"><i class="fa-solid fa-cart-shopping"></i>Votre panier</h1>
+      </div>
+      <hr>
+      <div class="section2 row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-title"><h3><i class="fa-solid fa-cart-shopping"></i>Contenu actuel de votre panier</h3></div>
+            <div class="card-body">
+              <div class="alert alert-success d-flex justify-content-between" role="alert">
+                <div class="textAlert">
+                  <p>Formation "Devenez un pro Symfony 6" ajoutée au panier!</p>
+                </div>
+                <div class="delt">
+                  <span><i class="fa-solid fa-xmark" style="color: #c2c2c2;"></i></span>
+                </div>
+              </div>
+              <br>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th colspan="2">Formation</th>
+                    <th class="bi-text-left">Quantité</th>
+                    <th class="bi-text-right">Prix (USD)</th>
+                    <th class="bi-text-right">Total (USD)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="https://parlonscode.com/icons/courses/symfony-framework.svg" alt="Devenez un pro Symfony 6"></td>
+                    <td>
+                      <span>
+                        <a href="https://parlonscode.com/courses/devenez-un-pro-symfony-6">Devenez un pro Symfony 6</a>
+                      </span>
+                      <br>
+                      <small>Accés à vie</small>
+                    </td>
+                    <td class="bi-text-right">
+                      <form action="https://parlonscode.com/cart/courses/devenez-un-pro-symfony-6" method="POST">
+                        <input type="hidden" name="_token" value="ED8xIr4zrGpPn39piBOQnQQp1138yIZq2jPgrFSW">
+                        <input type="hidden" name="_method" value="PATCH">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <select name="quantity" class="form-control input-sm">
+                              <option selected="selected" value="1">
+                                1
+                              </option>
+                              <option value="2">
+                                2
+                              </option>
+                              <option value="3">
+                                3
+                              </option>
+                              <option value="4">
+                                4
+                              </option>
+                              <option value="5">
+                                5
+                              </option>
+                              <option value="6">
+                                6
+                              </option>
+                              <option value="7">
+                                7
+                              </option>
+                              <option value="8">
+                                8
+                              </option>
+                              <option value="9">
+                                9
+                              </option>
+                              <option value="10">
+                                10
+                              </option>
+                              <option value="11">
+                                11
+                              </option>
+                              <option value="12">
+                                12
+                              </option>
+                              <option value="13">
+                                13
+                              </option>
+                              <option value="14">
+                                14
+                              </option>
+                              <option value="15">
+                                15
+                              </option>
+                              <option value="16">
+                                16
+                              </option>
+                              <option value="17">
+                                17
+                              </option>
+                              <option value="18">
+                                18
+                              </option>
+                              <option value="19">
+                                19
+                              </option>
+                              <option value="20">
+                                20
+                              </option>
+                              <option value="21">
+                                21
+                              </option>
+                              <option value="22">
+                                22
+                              </option>
+                              <option value="23">
+                                23
+                              </option>
+                              <option value="24">
+                                24
+                              </option>
+                              <option value="25">
+                                25
+                              </option>
+                            </select>
+                          </div>
+                          <div class="col-md-6">
+                            <button type="submit" class="btn btn-default btn-sm">Modifier</button>
+                          </div>
+                        </div>
+                      </form>
+                    </td>
+                    <td class="bi-text-right">$139.00</td>
+                    <td class="bi-text-right">$139.00</td>
+                    <td>
+                      <a href="https://parlonscode.com/cart/courses/devenez-un-pro-symfony-6" data-method="DELETE"
+                        data-confirm="Souhaitez-vous retirer cette formation de votre panier?" class="btn btn-default btn-sm"><i
+                          class="fa fa-times"></i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr class="well">
+                    <td colspan="5" class="text-right text-primary">
+                      <h3><b>Sous-total: $139.00</b></h3>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="parlons-code row">
+        <div class="col-md-6">
+          <span>Parlons code</span>
+          <p>
+            Apprenez à programmer par la pratique!
+          </p>
+          <div class="sociaux">
+            <i class="fa-brands fa-square-facebook icon"></i>
+            <i class="fa-brands fa-square-twitter icon"></i>
+            <i class="fa-brands fa-square-github icon"></i>
+          </div>
+        </div>
+        <div class="col-md-6 containerMenu">
+          <div class="row">
+            <div class="col-md-6">
+              <span class="title">Lien utiles</span>
+              <ul class="list-unstyled mt-2">
+                <li class="mb-2"><a href="#">Formation</a></li>
+                <li class="mb-2"><a href="../podcast/podcast.html">Podcasts</a></li>
+                <li class="mb-2"><a href="../livre/livre.html">Livres & Ebooks</a></li>
+                <li class="mb-2"><a href="../support-technique/support.html">Support technique</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <span class="title">Lien utiles</span>
+              <ul class="list-unstyled mt-2">
+                <li class="mb-2"><a href="../a-propos/a-propos.html">A propos</a></li>
+                <li class="mb-2"><a href="../contact-pop-up/contact.html">Contact</a></li>
+                <li class="mb-2"><a href="../politiqueConfidentiel/politique.html">Politique de confidentialité</a></li>
+                <li class="mb-2"><a href="../conditions-utilisation/condition.html">Conditions d'utilisation</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="newsletters">
+        <p><i class="fa-regular fa-bell"></i>Recevez toute l'actualité du site dans votre boîte mail!</p></label>
+        <div class="newsContainer row">
+          <div class="left col-md-6 p-3">
+            <form action="">
+              <input type="text" class="form-control" placeholder="Veiller entrer votre adresse email">
+            </form>
+          </div>
+          <div class="left col-md-6 p-3">
+            <button class="btn btn-info">
+              <a href="../accueil/accueil.html"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>S'abonner à la
+                newsletter</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="copyR pt-4 pb-1">
+        <p>Conçu <span><i class="fa-solid fa-heart" style="color: #fd5dab;"></i></span>avec et beaucoup de <span><i
+              class="fa-solid fa-mug-saucer" style="color: #bababa;"></i></span> sur Jupiter · © Copyright 2017 ‐
+          2023. Tous Droits Réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- script js -->
+  <script src="../Fontawesome/FontAwesome.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +361,7 @@
     <link rel="stylesheet" href="panier.css">
     <title>Panier</title>
 </head>
-<body>
+<body> -->
     <!-- <div class="ft"><i class="bi bi-cart3"></i>
         <h1>Votre Panier</h1></div> -->
    
@@ -59,7 +412,7 @@
     
             
         </div> -->
-<div class="container">
+<!-- <div class="container">
     <div class="card">
         <div class="card-header">
           Featured
@@ -74,4 +427,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> -->
