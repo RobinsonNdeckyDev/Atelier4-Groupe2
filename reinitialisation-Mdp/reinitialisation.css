@@ -21,7 +21,7 @@ main form button{
     background-color: var(--bleu-primaire) !important;
 }
 
-main form button a{
+main form button{
     color: white;
     text-decoration: none;
 }

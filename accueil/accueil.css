@@ -24,7 +24,7 @@ main .section1 img{
 }
 
 main .section1 .carte{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 main .section1 .carte button {
@@ -93,3 +93,20 @@ main .row1 .card-body span{
     margin-right: 10px;
 }
 
+
+header .section0 h1{
+    font-size: 70px;
+}
+
+header .section0 p{
+    font-size: 20px;
+}
+
+#bout:hover{
+    background-color: #3f55af;
+    color: white;
+}
+
+#bout a:hover{
+    color: white;
+}

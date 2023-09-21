@@ -88,19 +88,19 @@
                     <div class="form-group  has-error">
                       <label for="email">Adresse électronique</label>
                       <input type="email" id="email" name="email" class="form-control" placeholder="Adresse électronique"
-                        value="" autofocus="">
+                        value="" autofocus="" required>
                       <span class="help-block">Ce champ doit être renseigné.</span>
                     </div>
                     <div class="form-group ">
                       <label for="password">Mot de passe</label>
-                      <input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe">
+                      <input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe" required>
                       <span class="help-block"><a href="https://parlonscode.com/password/email">L'avez-vous
                           oublié?</a></span>
     
                     </div>
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="remember"> Garder ma session active
+                        <input type="checkbox" name="remember" required> Garder ma session active
                       </label>
                     </div>
                     <button class="btn btn-primary" type="submit">Se connecter</button> ou <a id="login_order_skip_link"
@@ -109,7 +109,7 @@
                 </div>
               </div>
               <form method="POST" action="https://parlonscode.com/order/update" accept-charset="UTF-8"><input name="_method"
-                  type="hidden" value="PATCH"><input name="_token" type="hidden"
+                  type="hidden" value="PATCH" required><input name="_token" type="hidden"
                   value="8DLVgKUzUCfNXZphb5YkK3Ea9v8L0W5oclVH9D50">
                 <div class="panel panel-primary">
     
@@ -126,14 +126,14 @@
                               <div class="form-group has-error">
                                 <label for="name" class="control-label"><abbr title="Champ obligatoire"
                                     class="required-field">*</abbr> Nom Complet</label>
-                                <input id="name" class="form-control" name="name" type="text" value="">
+                                <input id="name" class="form-control" name="name" type="text" value="" required>
                                 <span class="help-block error">Ce champ doit être renseigné.</span>
                               </div>
                               <br>
                               <div class="form-group has-error">
                                 <label for="email" class="control-label"><abbr title="Champ obligatoire"
                                     class="required-field">*</abbr> Adresse électronique</label>
-                                <input id="email" class="form-control" name="email" type="email" value="">
+                                <input id="email" class="form-control" name="email" type="email" value="" required>
                                 <span class="help-block error">Ce champ doit être renseigné.</span>
                               </div>
                               <br>
@@ -172,19 +172,19 @@
                   <div class="form-group has-error">
                     <label for="name" class="control-label"><abbr title="Champ obligatoire" class="required-field">*</abbr>
                       Nom Complet</label>
-                    <input id="name" class="form-control" name="name" type="text" value="">
+                    <input id="name" class="form-control" name="name" type="text" value="" required>
                     <span class="help-block error">Ce champ doit être renseigné.</span>
                   </div>
                   <div class="form-group has-error">
                     <label for="email" class="control-label"><abbr title="Champ obligatoire" class="required-field">*</abbr>
                       Adresse électronique</label>
-                    <input id="email" class="form-control" name="email" type="email" value="">
+                    <input id="email" class="form-control" name="email" type="email" value="" required>
                     <span class="help-block">Une reçu de facture sera envoyé à cette adresse.</span>
                     <span class="help-block error">Ce champ doit être renseigné.</span>
                   </div>
                   <div class="form-group ">
                     <label for="company" class="control-label">Entreprise</label>
-                    <input id="company" class="form-control" name="company" type="text" value="">
+                    <input id="company" class="form-control" name="company" type="text" value="" required>
     
                   </div>
                   <div class="form-group">
@@ -192,11 +192,11 @@
                         class="required-field">*</abbr> Adresse</label>
                     <div class="row">
                       <div class="col-md-6 has-error">
-                        <input id="address1" class="form-control" name="address1" type="text" value="">
+                        <input id="address1" class="form-control" name="address1" type="text" value="" required>
                         <span class="help-block error">Ce champ doit être renseigné.</span>
                       </div>
                       <div class="col-md-6 ">
-                        <input id="address2" class="form-control" name="address2" type="text" value="">
+                        <input id="address2" class="form-control" name="address2" type="text" value="" required>
     
                       </div>
                     </div>
@@ -207,17 +207,17 @@
                       <div class="col-md-4 has-error">
                         <label for="city" class="control-label"><abbr title="Champ obligatoire"
                             class="required-field">*</abbr> Ville</label>
-                        <input id="city" class="form-control" name="city" type="text" value="">
+                        <input id="city" class="form-control" name="city" type="text" value="" required>
                         <span class="help-block error">Ce champ doit être renseigné.</span>
                       </div>
                       <div class="col-md-4 ">
                         <label for="state" class="control-label">État/Province</label>
-                        <input id="state" class="form-control" name="state" type="text" value="">
+                        <input id="state" class="form-control" name="state" type="text" value="" required>
     
                       </div>
                       <div class="col-md-4 ">
                         <label for="zip_code" class="control-label">Code Postal</label>
-                        <input id="zip_code" class="form-control" name="zip_code" type="text" value="">
+                        <input id="zip_code" class="form-control" name="zip_code" type="text" value="" required>
     
                       </div>
                     </div>
@@ -469,19 +469,19 @@
                   </div>
                   <div class="form-group ">
                     <label for="phone" class="control-label">Numéro de téléphone</label>
-                    <input id="phone" class="form-control" name="phone" type="text" value="">
+                    <input id="phone" class="form-control" name="phone" type="text" value="" required>
     
                   </div>
                   <div class="form-group ">
                     <label for="po_vat_num" class="control-label">ID #</label>
-                    <input id="po_vat_num" class="form-control" name="po_vat_num" type="text" value="">
+                    <input id="po_vat_num" class="form-control" name="po_vat_num" type="text" value="" required>
                     <span class="help-block">S'il est saisi, ce numéro apparaîtra sur votre reçu. Utilisez-le pour
                       enregistrer un numéro de bon de commande, votre numéro d'identification fiscale, etc.</span>
     
                   </div>
                   <div class="form-group ">
                     <label for="coupon_code" class="control-label">Code Coupon</label>
-                    <input id="coupon_code" class="form-control" autocomplete="off" name="coupon_code" type="text" value="">
+                    <input id="coupon_code" class="form-control" autocomplete="off" name="coupon_code" type="text" value="" required>
     
                   </div>
                 </div>
@@ -518,7 +518,7 @@
                   </div>
                   <div class="form-group " style="display: none;" id="how_heard_other_div">
                     <input id="how_heard" class="form-control" placeholder="Comment avez-vous entendu parler de nous?"
-                      name="how_heard_other" type="text" value="">
+                      name="how_heard_other" type="text" value="" required>
     
                   </div>
                 </div>
