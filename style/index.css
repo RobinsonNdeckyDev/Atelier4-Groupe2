@@ -1,3 +1,12 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 70px;
+    scroll-snap-align: start;
+    opacity: 1;
+    transition: opacity 1s easeInOut 5s;
+}
+
 :root{
     --bleu-primaire: #32438A;
     --vert-primaire: #448AB3;
